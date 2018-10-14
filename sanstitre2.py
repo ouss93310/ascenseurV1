@@ -1,4 +1,4 @@
-#version 1 ascenseur.py
+
 # -*- coding: utf-8 -*-
 
 import random  #module qui va générer nos positions 
