@@ -22,7 +22,7 @@ def go_ascenseur (position_ascenseur, position_humain) :
             print("___")
             print("|↑|")
             print("|_|")
-            time.sleep(3) # une pose de 3 sec 
+            time.sleep(3) # une pause de 3 sec 
 
     #si négatif je descends 
     # dans ce cas là on ajoute pas un (car direction négatif) mais soustrait 1
@@ -33,18 +33,18 @@ def go_ascenseur (position_ascenseur, position_humain) :
             print("___")
             print("| |")
             print("|↓|")
-            time.sleep(3) #poste de 3 sec
+            time.sleep(3) #pause de 3 sec
 
     print("ouverture des portes !")
     print(" ___")
     print("| ⇶ ")        
     print("|_ _")
-    time.sleep(3) #pose de 3sec
+    time.sleep(3) #pause de 3sec
     print("fermeture des portes !")
     print(" ___")
     print("|⬱")        
     print("|_ _")
-    time.sleep(3) #pose de 3 sec
+    time.sleep(3) #pause de 3 sec
     
 #fonction principale qui va tout gérer avec ma fonction ci-dessus
     
